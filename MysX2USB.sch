@@ -48,19 +48,19 @@ Sheet 1 1
 Title "MysX 2 USB"
 Date "2016-03-20"
 Rev "0.5"
-Comp ""
-Comment1 "Thomas Mørch"
+Comp "Mysensors.org"
+Comment1 "Created by Thomas B. Mørch"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MYSX_1.2 P2
+L MYSX_1.0 P2
 U 1 1 56E907D4
 P 6950 4100
 F 0 "P2" H 7475 4331 50  0000 C CNN
 F 1 "MYSX_1.2" H 7475 4240 50  0000 C CNN
-F 2 "mysensors_connectors:MYSX_1.2" H 6950 2900 60  0001 C CNN
+F 2 "mysensors_connectors:MYSX_1.0" H 6950 2900 60  0001 C CNN
 F 3 "" H 6950 2900 60  0000 C CNN
 	1    6950 4100
 	1    0    0    -1  
@@ -253,10 +253,10 @@ Wire Wire Line
 	4550 3050 4550 3150
 Connection ~ 4550 3150
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 56E9134E
 P 4550 2750
-F 0 "#PWR08" H 4550 2500 50  0001 C CNN
+F 0 "#PWR07" H 4550 2500 50  0001 C CNN
 F 1 "GND" H 4558 2577 50  0000 C CNN
 F 2 "" H 4550 2750 50  0000 C CNN
 F 3 "" H 4550 2750 50  0000 C CNN
