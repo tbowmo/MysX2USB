@@ -4,5 +4,5 @@ Contains a USB MysX interface, usefull for debugging, and programming Mysensor n
 
 Target can be supplied with power from vUSB, if jumper P2 is in place
 
-*Please note* that since the MysX connector doesn't contain a reset pin for the MCU, you need to reset the target manually.
-
+NOTE! Using MysX 2.0 with reset pin! can be used together with MysX 1.x if
+you handle reset yourself

@@ -5,7 +5,7 @@ echo $projdir
 rm $projdir.zip
 
 orgname=(B.Cu B.Mask B.SilkS F.Cu F.Mask F.SilkS Edge.Cuts)
-newname=(GBL GBS GBO GTL GTS GTO GML)
+newname=(gbl gbs gbo gtl gts gto gml)
 
 for item in ${!orgname[*]}
 do 
@@ -19,9 +19,9 @@ done
 drl=$(echo *.drl)
 drl=${drl/.drl/}
 
-cp $drl.drl $drl.TXT
+cp $drl.drl $drl.txt
 
-zip -m $projdir.zip *.GB? *.GT? *.GM? *.TXT
+zip -m $projdir.zip $projdir.gb? $projdir.gt? $projdir.gm? $projdir.txt
 
 rm -rf dirtypcb
 mkdir dirtypcb
